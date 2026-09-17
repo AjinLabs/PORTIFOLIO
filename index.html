@@ -94,13 +94,11 @@
       </nav>
 
       <div class="nav-actions">
-        <!-- Audio Synth Toggle -->
-        <button id="sound-toggle" class="icon-btn" title="Toggle UI Sound FX" data-magnetic>
-          <i class="fa-solid fa-volume-xmark" id="sound-icon"></i>
-        </button>
-        <!-- Glassmorphism Theme Toggle (Red / Blue) -->
-        <button id="theme-toggle" class="lang-btn" data-magnetic title="Switch Glassmorphism Theme (Red / Blue)">
-          <i class="fa-solid fa-palette"></i> <span id="theme-text">RED / BLUE</span>
+        <!-- Dual Red / Blue Glassmorphism Theme Switch -->
+        <button id="theme-toggle" class="glass-theme-switch" aria-label="Toggle Theme (Red / Blue)" data-magnetic>
+          <span class="switch-side side-red active" title="Red Theme"><span class="dot-red"></span> RED</span>
+          <span class="switch-side side-blue" title="Blue Theme"><span class="dot-blue"></span> BLUE</span>
+          <span class="switch-slider"></span>
         </button>
         <!-- Mobile Drawer Toggle -->
         <button class="hamburger" id="hamburger" aria-label="Toggle Menu" data-magnetic>

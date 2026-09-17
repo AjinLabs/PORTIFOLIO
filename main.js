@@ -21,16 +21,19 @@ document.addEventListener('DOMContentLoaded', () => {
      0.1 RED VS BLUE GLASSMORPHISM THEME TOGGLE ENGINE
      -------------------------------------------------------------------------- */
   const themeToggleBtn = document.getElementById('theme-toggle');
-  const themeText = document.getElementById('theme-text');
+  const sideRed = document.querySelector('.side-red');
+  const sideBlue = document.querySelector('.side-blue');
 
   function applyPortfolioTheme(themeName) {
     if (themeName === 'blue') {
       document.documentElement.setAttribute('data-theme', 'blue');
-      if (themeText) themeText.textContent = 'BLUE THEME';
+      if (sideRed) sideRed.classList.remove('active');
+      if (sideBlue) sideBlue.classList.add('active');
       localStorage.setItem('portfolio-theme', 'blue');
     } else {
       document.documentElement.removeAttribute('data-theme');
-      if (themeText) themeText.textContent = 'RED THEME';
+      if (sideBlue) sideBlue.classList.remove('active');
+      if (sideRed) sideRed.classList.add('active');
       localStorage.setItem('portfolio-theme', 'red');
     }
   }
