@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajin K | Data Scientist & AI/ML Engineer</title>
+    <meta name="description" content="Portfolio of Ajin K, a Data Science Intern, Aspiring Machine Learning Engineer, and Python Full Stack Developer. Discover projects, experience, and certifications.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Custom Cursor Follower -->
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-dot"></div>
+
+    <!-- Navigation Header -->
+    <header class="header">
+        <div class="logo">
+            <a href="#home" id="nav-logo">ajin<span>.k</span></a>
+        </div>
+        <nav class="navbar" id="navbar">
+            <a href="#home" class="nav-link active" data-section="home">Home</a>
+            <a href="#about" class="nav-link" data-section="about">About</a>
+            <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+            <a href="#experience" class="nav-link" data-section="experience">Experience</a>
+            <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+            <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+        </nav>
+        <div class="nav-actions">
+            <button id="theme-toggle-btn" class="theme-toggle-btn" aria-label="Toggle Theme">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+            <button class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Toggle Mobile Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content Container for vertical sliding -->
+    <main class="page-container">
+
+        <!-- SECTION 1: HOME -->
+        <section id="home" class="section active-section" data-index="0">
+            <div class="home-hero-container">
+                <span class="greeting-badge">Data Science & AI/ML</span>
+                <h1 class="main-heading">
+                    Hello I'm <span class="highlight-text">Ajin.</span><br>
+                    AI/ML Engineer Based In India.
+                </h1>
+                <div class="typing-container">
+                    <span class="static-txt">I specialize in</span>
+                    <span id="typed-text" class="dynamic-txt"></span>
+                    <span class="cursor">&nbsp;</span>
+                </div>
+                <p class="intro-paragraph">
+                    BCA graduate and aspiring Machine Learning Engineer. Currently pursuing a Diploma in Data Science with hands-on experience in predictive modeling, deep learning, computer vision, and building interactive, data-driven software solutions.
+                </p>
+                <div class="home-buttons">
+                    <a href="#contact" class="btn btn-primary" id="home-connect-btn">Connect With Me <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="assets/resume.pdf" class="btn btn-secondary" id="download-resume-btn" download>Resume <i class="fa-solid fa-download"></i></a>
+                </div>
+                <div class="social-links-container">
+                    <a href="https://github.com/AjinLabs" target="_blank" class="social-icon" id="github-home" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ajinkofficial" target="_blank" class="social-icon" id="linkedin-home" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/ajinaju__?igsh=cnE4YWdybzR4NXFr" target="_blank" class="social-icon" id="instagram-home" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=91XXXXXXXXXX&text=Hi%20Ajin,%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20connect!" target="_blank" class="social-icon" id="whatsapp-home" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="mailto:ajink.offcial@gmail.com" class="social-icon" id="email-home" title="Email"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: ABOUT ME -->
+        <section id="about" class="section" data-index="1">
+            <div class="section-header-container">
+                <h2 class="section-title">ABOUT <span class="outline-txt">ME</span></h2>
+            </div>
+            <div class="about-grid-layout">
+                <!-- Left Column -->
+                <div class="about-col-left">
+                    <p class="about-large-desc">
+                        I'm <span class="accent-text">Ajin K</span>, a BCA graduate and aspiring Machine Learning Engineer from Kerala, India. Currently pursuing a Diploma in Data Science with an integrated internship at <span class="accent-text">Techolas Technologies</span>.
+                    </p>
+                    <p class="about-sub-desc">
+                        I work with Python, Machine Learning, Deep Learning, SQL, Tableau, Power BI, and AI — building intelligent software solutions that solve real-world problems. From a healthcare system for dementia patients to a tournament prediction platform used by 100+ people, I enjoy end-to-end ownership. Outside of code, I love video editing, photography, football, badminton, and volleyball.
+                    </p>
+                    <div class="about-badge-tags">
+                        <span class="outline-badge">MACHINE LEARNING</span>
+                        <span class="outline-badge">DEEP LEARNING</span>
+                        <span class="outline-badge">COMPUTER VISION</span>
+                        <span class="outline-badge">NLP</span>
+                        <span class="outline-badge">DATA VIZ</span>
+                        <span class="outline-badge">MLOPS</span>
+                        <span class="outline-badge">AI SYSTEMS</span>
+                    </div>
+                </div>
+                <!-- Right Column -->
+                <div class="about-col-right">
+                    <div class="metadata-numbered-list">
+                        <div class="meta-row">
+                            <span class="meta-num">01</span>
+                            <div class="meta-info">
+                                <h4>Current Role</h4>
+                                <p>Data Science Intern at Techolas Technologies &bull; June 2025 – Present</p>
+                            </div>
+                        </div>
+                        <div class="meta-row">
+                            <span class="meta-num">02</span>
+                            <div class="meta-info">
+                                <h4>Education</h4>
+                                <p>BCA Graduate &bull; Christ College Kattappana (2022–2025)</p>
+                            </div>
+                        </div>
+                        <div class="meta-row">
+                            <span class="meta-num">03</span>
+                            <div class="meta-info">
+                                <h4>Location</h4>
+                                <p>Kerala, India &bull; Open to remote & relocation</p>
+                            </div>
+                        </div>
+                        <div class="meta-row">
+                            <span class="meta-num">04</span>
+                            <div class="meta-info">
+                                <h4>Goal</h4>
+                                <p>ML Engineer &bull; International career in AI/Data Science</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: SKILLS -->
+        <section id="skills" class="section" data-index="2">
+            <div class="section-header-container">
+                <h2 class="section-title">MY <span class="outline-txt">SKILLS</span></h2>
+            </div>
+            <div class="skills-grid-layout">
+                <!-- Left: Skill Bars -->
+                <div class="skills-col-left">
+                    <div class="skills-group">
+                        <h3>Programming & Visuals</h3>
+                        <div class="skill-row">
+                            <div class="skill-meta"><span>Python</span><span>90%</span></div>
+                            <div class="skill-bar"><div class="skill-bar-fill" style="width: 90%;"></div></div>
+                        </div>
+                        <div class="skill-row">
+                            <div class="skill-meta"><span>SQL & Databases</span><span>85%</span></div>
+                            <div class="skill-bar"><div class="skill-bar-fill" style="width: 85%;"></div></div>
+                        </div>
+                        <div class="skill-row">
+                            <div class="skill-meta"><span>Tableau & Power BI</span><span>85%</span></div>
+                            <div class="skill-bar"><div class="skill-bar-fill" style="width: 85%;"></div></div>
+                        </div>
+                        <div class="skill-row">
+                            <div class="skill-meta"><span>Django & Full Stack</span><span>80%</span></div>
+                            <div class="skill-bar"><div class="skill-bar-fill" style="width: 80%;"></div></div>
+                        </div>
+                    </div>
+                    <div class="skills-group">
+                        <h3>ML & AI</h3>
+                        <div class="skill-row">
+                            <div class="skill-meta"><span>Pandas, NumPy, Scikit-learn</span><span>90%</span></div>
+                            <div class="skill-bar"><div class="skill-bar-fill" style="width: 90%;"></div></div>
+                        </div>
+                        <div class="skill-row">
+                            <div class="skill-meta"><span>Deep Learning & Computer Vision</span><span>75%</span></div>
+                            <div class="skill-bar"><div class="skill-bar-fill" style="width: 75%;"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Right: Certifications -->
+                <div class="skills-col-right">
+                    <h3>Verified Certifications</h3>
+                    <div class="certifications-list">
+                        <!-- Cert 1 -->
+                        <div class="cert-item-row" data-title="Python Full Stack Development" data-issued="Byteboot Techno Solutions">
+                            <span class="cert-index">01</span>
+                            <div class="cert-details">
+                                <h5>Python Full Stack Development</h5>
+                                <p>Byteboot Techno Solutions</p>
+                            </div>
+                            <i class="fa-solid fa-arrow-right-long cert-arrow"></i>
+                        </div>
+                        <!-- Cert 2 -->
+                        <div class="cert-item-row" data-title="Adobe Photoshop Professional" data-issued="Technical Institute">
+                            <span class="cert-index">02</span>
+                            <div class="cert-details">
+                                <h5>Adobe Photoshop</h5>
+                                <p>Creative Media Academy</p>
+                            </div>
+                            <i class="fa-solid fa-arrow-right-long cert-arrow"></i>
+                        </div>
+                        <!-- Cert 3 -->
+                        <div class="cert-item-row" data-title="Introduction to AI" data-issued="Cognitive Class / IBM">
+                            <span class="cert-index">03</span>
+                            <div class="cert-details">
+                                <h5>Introduction to AI</h5>
+                                <p>IBM / Cognitive Class</p>
+                            </div>
+                            <i class="fa-solid fa-arrow-right-long cert-arrow"></i>
+                        </div>
+                        <!-- Cert 4 -->
+                        <div class="cert-item-row" data-title="Introduction to Generative AI" data-issued="Google Cloud">
+                            <span class="cert-index">04</span>
+                            <div class="cert-details">
+                                <h5>Introduction to Generative AI</h5>
+                                <p>Google Cloud / DeepLearning.AI</p>
+                            </div>
+                            <i class="fa-solid fa-arrow-right-long cert-arrow"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: EXPERIENCE -->
+        <section id="experience" class="section" data-index="3">
+            <div class="section-header-container">
+                <h2 class="section-title">WORK <span class="outline-txt">EXPERIENCE</span></h2>
+            </div>
+            <div class="experience-list-minimal">
+                <!-- Row 1 -->
+                <div class="experience-row-item">
+                    <span class="exp-date-label">JUNE 2025 – PRESENT</span>
+                    <div class="exp-text-details">
+                        <h3>Data Science Intern</h3>
+                        <h4>Techolas Technologies</h4>
+                        <p>Currently pursuing a Diploma in Data Science with an integrated internship. Preprocessing datasets, writing pipelines, implementing predictive models, computer vision, and building Tableau/Power BI business dashboards.</p>
+                        <div class="exp-tags-row">
+                            <span class="outline-badge">PYTHON</span>
+                            <span class="outline-badge">SQL</span>
+                            <span class="outline-badge">PANDAS</span>
+                            <span class="outline-badge">NUMPY</span>
+                            <span class="outline-badge">ML</span>
+                            <span class="outline-badge">DEEP LEARNING</span>
+                            <span class="outline-badge">POWER BI</span>
+                            <span class="outline-badge">TABLEAU</span>
+                        </div>
+                    </div>
+                    <div class="exp-status-col">
+                        <span class="status-pill status-active">ACTIVE</span>
+                    </div>
+                </div>
+                <!-- Row 2 -->
+                <div class="experience-row-item">
+                    <span class="exp-date-label">COMPLETED</span>
+                    <div class="exp-text-details">
+                        <h3>Python Full Stack Intern</h3>
+                        <h4>Byteboot Techno Solutions Pvt. Ltd.</h4>
+                        <p>Built responsive, database-driven web applications using Python and Django. Integrated MySQL/SQLite database connections, authentication systems, CRUD operations, and REST APIs.</p>
+                        <div class="exp-tags-row">
+                            <span class="outline-badge">PYTHON</span>
+                            <span class="outline-badge">DJANGO</span>
+                            <span class="outline-badge">HTML/CSS</span>
+                            <span class="outline-badge">JAVASCRIPT</span>
+                            <span class="outline-badge">BOOTSTRAP</span>
+                            <span class="outline-badge">MYSQL</span>
+                            <span class="outline-badge">REST API</span>
+                        </div>
+                    </div>
+                    <div class="exp-status-col">
+                        <span class="status-pill status-completed">DONE</span>
+                    </div>
+                </div>
+                <!-- Row 3 -->
+                <div class="experience-row-item">
+                    <span class="exp-date-label">COMPLETED</span>
+                    <div class="exp-text-details">
+                        <h3>Python Intern</h3>
+                        <h4>RISS Technologies</h4>
+                        <p>Developed Recallio, a healthcare platform for patients with memory-related issues. Built the caregivers web control dashboard and collaborated on the SOS-integrated mobile client.</p>
+                        <div class="exp-tags-row">
+                            <span class="outline-badge">PYTHON</span>
+                            <span class="outline-badge">SQLITE</span>
+                            <span class="outline-badge">WEB DEV</span>
+                            <span class="outline-badge">MOBILE APP</span>
+                            <span class="outline-badge">SOFTWARE DEV</span>
+                        </div>
+                    </div>
+                    <div class="exp-status-col">
+                        <span class="status-pill status-completed">DONE</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 5: PROJECTS -->
+        <section id="projects" class="section" data-index="4">
+            <div class="section-header-container">
+                <h2 class="section-title">MY <span class="outline-txt">PROJECTS</span></h2>
+            </div>
+            <div class="projects-list-minimal">
+                <!-- Project Row 1 -->
+                <div class="project-row-item">
+                    <span class="proj-num">01</span>
+                    <div class="proj-meta-details">
+                        <h3>Recallio — Memory Care System</h3>
+                        <p>HEALTHCARE &bull; PYTHON &bull; FIREBASE &bull; MOBILE &bull; WEB</p>
+                    </div>
+                    <div class="proj-action-col">
+                        <a href="https://github.com/AjinLabs" target="_blank" class="pill-outline-btn">GITHUB <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <!-- Project Row 2 -->
+                <div class="project-row-item">
+                    <span class="proj-num">02</span>
+                    <div class="proj-meta-details">
+                        <h3>FIFA World Cup Prediction App</h3>
+                        <p>WEB APP &bull; FIREBASE &bull; VERCEL &bull; 100+ USERS</p>
+                    </div>
+                    <div class="proj-action-col">
+                        <a href="https://github.com/AjinLabs" target="_blank" class="pill-outline-btn">GITHUB <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <!-- Project Row 3 -->
+                <div class="project-row-item">
+                    <span class="proj-num">03</span>
+                    <div class="proj-meta-details">
+                        <h3>Salon Management System</h3>
+                        <p>PHP &bull; MYSQL &bull; SCHEDULER &bull; ADMIN DASHBOARD</p>
+                    </div>
+                    <div class="proj-action-col">
+                        <a href="https://github.com/AjinLabs" target="_blank" class="pill-outline-btn">GITHUB <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <!-- Project Row 4 -->
+                <div class="project-row-item">
+                    <span class="proj-num">04</span>
+                    <div class="proj-meta-details">
+                        <h3>Interactive Sales & Customer Dashboard</h3>
+                        <p>TABLEAU &bull; BUSINESS INTELLIGENCE &bull; KPI CARDS &bull; DATA VIS</p>
+                    </div>
+                    <div class="proj-action-col">
+                        <a href="#" class="pill-outline-btn demo-trigger">VIEW INSIGHTS <i class="fa-solid fa-chart-line"></i></a>
+                    </div>
+                </div>
+                <!-- Project Row 5 -->
+                <div class="project-row-item">
+                    <span class="proj-num">05</span>
+                    <div class="proj-meta-details">
+                        <h3>Data Science & ML Projects (Ongoing)</h3>
+                        <p>PYTHON &bull; TENSORFLOW &bull; EXPLORATORY DATA ANALYSIS &bull; AI</p>
+                    </div>
+                    <div class="proj-action-col">
+                        <a href="https://github.com/AjinLabs" target="_blank" class="pill-outline-btn">GITHUB <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 6: CONTACT -->
+        <section id="contact" class="section" data-index="5">
+            <div class="section-header-container">
+                <h2 class="section-title">CONTACT <span class="outline-txt">ME</span></h2>
+            </div>
+            <div class="contact-grid-layout">
+                <!-- Left: Quick Links -->
+                <div class="contact-col-left">
+                    <p class="contact-large-text">
+                        Let's build something intelligent. Connect with me directly on any of these channels:
+                    </p>
+                    <div class="contact-links-list">
+                        <a href="mailto:ajink.offcial@gmail.com" class="contact-link-row">
+                            <span class="link-label">Gmail</span>
+                            <span class="link-value">ajink.offcial@gmail.com</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/ajinkofficial" target="_blank" class="contact-link-row">
+                            <span class="link-label">LinkedIn</span>
+                            <span class="link-value">in/ajinkofficial</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                        <a href="https://github.com/AjinLabs" target="_blank" class="contact-link-row">
+                            <span class="link-label">GitHub</span>
+                            <span class="link-value">github.com/AjinLabs</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                        <a href="https://www.instagram.com/ajinaju__?igsh=cnE4YWdybzR4NXFr" target="_blank" class="contact-link-row">
+                            <span class="link-label">Instagram</span>
+                            <span class="link-value">@ajinaju__</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                        <a href="https://api.whatsapp.com/send?phone=91XXXXXXXXXX&text=Hi%20Ajin,%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20connect!" target="_blank" class="contact-link-row">
+                            <span class="link-label">WhatsApp</span>
+                            <span class="link-value">Chat on WhatsApp</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Right: Form -->
+                <div class="contact-col-right">
+                    <form id="contact-form" class="minimal-contact-form" onsubmit="event.preventDefault(); alert('Message sent! (Note: This is a demo submission.)');">
+                        <div class="form-row-group">
+                            <div class="form-field">
+                                <label for="form-name">Name</label>
+                                <input type="text" id="form-name" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-field">
+                                <label for="form-email">Email</label>
+                                <input type="email" id="form-email" placeholder="john@example.com" required>
+                            </div>
+                        </div>
+                        <div class="form-field">
+                            <label for="form-subject">Subject</label>
+                            <input type="text" id="form-subject" placeholder="Project Inquiry" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="form-message">Message</label>
+                            <textarea id="form-message" rows="4" placeholder="Your message details here..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="form-submit-btn">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Certificate Modal Overlay -->
+    <div class="modal" id="cert-modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close-btn">&times;</button>
+            <div class="modal-header">
+                <i class="fa-solid fa-graduation-cap modal-title-icon"></i>
+                <h3 id="modal-title">Certificate Title</h3>
+                <p id="modal-issuer" class="cert-issuer">Issued by Organization</p>
+            </div>
+            <div class="modal-body">
+                <!-- Dynamic SVG Mockup of a Certificate -->
+                <div class="certificate-mockup">
+                    <div class="cert-border">
+                        <div class="cert-inner-border">
+                            <div class="cert-gold-seal"><i class="fa-solid fa-award"></i></div>
+                            <span class="cert-logo">AJIN LABS VERIFIED</span>
+                            <h2>CERTIFICATE OF ACCOMPLISHMENT</h2>
+                            <p class="cert-text-present">This is proudly presented to</p>
+                            <p class="cert-candidate-name">AJIN K</p>
+                            <p class="cert-text-details">for successfully fulfilling the requirements and passing the curriculum for</p>
+                            <p class="cert-course-name" id="modal-cert-course-name">Course Title</p>
+                            <div class="cert-footer-grid">
+                                <div class="cert-signature-line">
+                                    <span class="signature">Ajin K Verification</span>
+                                    <span class="label">AUTHORIZED SIGNATORY</span>
+                                </div>
+                                <div class="cert-date-verify">
+                                    <span class="date-val">June 2025</span>
+                                    <span class="label">DATE OF ISSUANCE</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer (Absolutely positioned inside active container or at body bottom) -->
+    <footer class="footer-area">
+        <p>&copy; 2026 Ajin K. All rights reserved. Built for high performance.</p>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
